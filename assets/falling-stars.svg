@@ -1,0 +1,16 @@
+<div align="center">
+
+  <!-- 1. LIVE ANIMATED FALLING METEORS / STARFIELD -->
+  <a href="https://ajeeshiv.vercel.app/">
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=00FF66&text=✦%20✦%20✦%20✦%20✦&fontSize=30&height=120&animation=fadeIn" width="100%" alt="Starfield Sparkle" />
+  </a>
+
+  <!-- DYNAMIC METEOR SHOWER BANNER -->
+  <a href="https://ajeeshiv.vercel.app/">
+    <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:00FF66,50:003b15,100:050807&height=220&section=header&text=Ajeesh%20I%20V&fontSize=52&fontColor=ffffff&fontAlignY=40&animation=twinkling" width="100%" alt="Header Wave" />
+  </a>
+
+  <!-- FALLING STAR TRAILS -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" height="90" alt="Falling Stars Animation" />
+
+</div>
