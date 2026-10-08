@@ -1,10 +1,14 @@
-<svg width="800" height="290" viewBox="0 0 800 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="290" viewBox="0 0 800 290" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <linearGradient id="gradBadge" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#58a6ff"/>
       <stop offset="50%" stop-color="#a371f7"/>
       <stop offset="100%" stop-color="#ff79c6"/>
     </linearGradient>
+    <radialGradient id="avatarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0"/>
+    </radialGradient>
     <clipPath id="avatarClip">
       <circle cx="140" cy="105" r="48"/>
     </clipPath>
@@ -20,17 +24,17 @@
     }
   </style>
 
-  <!-- Base Card -->
+  <!-- Base Card Frame -->
   <rect width="800" height="290" class="card-base"/>
 
-  <!-- Left: Developer ID Lanyard Badge -->
+  <!-- Left: Suspended Developer ID Lanyard Badge -->
   <line x1="140" y1="0" x2="140" y2="25" stroke="#8957e5" stroke-width="5"/>
   <circle cx="140" cy="27" r="7" fill="#bc8cff"/>
   <rect x="40" y="32" width="200" height="235" class="badge-bg"/>
   
-  <!-- Profile Picture (GitHub Camo Safe with Inlined Direct Target) -->
+  <!-- Embedded Photo -->
   <g clip-path="url(#avatarClip)">
-    <image href="https://avatars.githubusercontent.com/Ajeesh-iv?size=200" x="92" y="57" width="96" height="96" preserveAspectRatio="xMidYMid slice"/>
+    <image href="data:image/jpeg;base64,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" x="92" y="57" width="96" height="96" preserveAspectRatio="xMidYMid slice"/>
   </g>
   <circle cx="140" cy="105" r="48" fill="none" class="glow-border"/>
 
@@ -42,17 +46,14 @@
   <text x="300" y="55" fill="#58a6ff" font-family="monospace" font-size="13">// DEVELOPER OVERVIEW</text>
   <text x="300" y="80" fill="#f0f6fc" font-family="-apple-system, sans-serif" font-size="20" font-weight="700">Profile at a glance</text>
 
-  <!-- Metric 1 -->
   <rect x="300" y="105" width="130" height="60" rx="10" fill="#161b22" stroke="#21262d"/>
   <text x="320" y="132" fill="#f0f6fc" font-size="17" font-weight="bold" font-family="sans-serif">@Ajeesh-iv</text>
   <text x="320" y="152" fill="#8b949e" font-size="12" font-family="sans-serif">GitHub Handle</text>
 
-  <!-- Metric 2 -->
   <rect x="450" y="105" width="130" height="60" rx="10" fill="#161b22" stroke="#21262d"/>
   <text x="470" y="132" fill="#7ee787" font-size="18" font-weight="bold" font-family="sans-serif">Active</text>
   <text x="470" y="152" fill="#8b949e" font-size="12" font-family="sans-serif">Status</text>
 
-  <!-- Metric 3 -->
   <rect x="600" y="105" width="130" height="60" rx="10" fill="#161b22" stroke="#21262d"/>
   <text x="620" y="132" fill="#ff79c6" font-size="18" font-weight="bold" font-family="sans-serif">2026</text>
   <text x="620" y="152" fill="#8b949e" font-size="12" font-family="sans-serif">Edition</text>
