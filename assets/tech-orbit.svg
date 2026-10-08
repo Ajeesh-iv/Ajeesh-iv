@@ -1,0 +1,64 @@
+<svg width="800" height="260" viewBox="0 0 800 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="neonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bd93f9" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orbitStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8be9fd"/>
+      <stop offset="50%" stop-color="#bd93f9"/>
+      <stop offset="100%" stop-color="#ff79c6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .bg { fill: #0b0f19; rx: 16px; }
+    .orbit-1 { transform-origin: 220px 130px; animation: spin 14s linear infinite; }
+    .orbit-2 { transform-origin: 220px 130px; animation: spin-rev 20s linear infinite; }
+    .pulse-core { transform-origin: 220px 130px; animation: pulse 2.5s ease-in-out infinite; }
+    @keyframes spin { 100% { transform: rotate(360deg); } }
+    @keyframes spin-rev { 100% { transform: rotate(-360deg); } }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); filter: drop-shadow(0 0 10px #bd93f9); }
+      50% { transform: scale(1.1); filter: drop-shadow(0 0 24px #ff79c6); }
+    }
+    .badge { fill: #161b22; stroke: #30363d; rx: 8px; }
+    .text-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; fill: #58a6ff; font-size: 14px; }
+    .text-pill { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11px; font-weight: 600; fill: #f0f6fc; }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="800" height="260" class="bg" stroke="#1f293d" stroke-width="1.5"/>
+
+  <!-- Left: Glowing Planetary Orbit -->
+  <circle cx="220" cy="130" r="100" fill="url(#neonGlow)"/>
+  <ellipse cx="220" cy="130" rx="90" ry="32" stroke="url(#orbitStroke)" stroke-width="1.8" fill="none" class="orbit-1" transform="rotate(-25 220 130)"/>
+  <ellipse cx="220" cy="130" rx="90" ry="32" stroke="url(#orbitStroke)" stroke-width="1.8" fill="none" class="orbit-2" transform="rotate(35 220 130)"/>
+  <circle cx="220" cy="130" r="28" fill="#1e1e2e" stroke="#bd93f9" stroke-width="2" class="pulse-core"/>
+  <text x="220" y="136" text-anchor="middle" fill="#ff79c6" font-family="monospace" font-size="16" font-weight="bold">&lt;/&gt;</text>
+
+  <!-- Right: Tech Stack Pills -->
+  <text x="470" y="45" class="text-title">⚡ CORE STACK</text>
+  <rect x="470" y="55" width="85" height="26" class="badge"/>
+  <text x="512" y="72" text-anchor="middle" class="text-pill">React.js</text>
+  <rect x="565" y="55" width="85" height="26" class="badge"/>
+  <text x="607" y="72" text-anchor="middle" class="text-pill">Next.js</text>
+  <rect x="660" y="55" width="105" height="26" class="badge"/>
+  <text x="712" y="72" text-anchor="middle" class="text-pill">TypeScript</text>
+
+  <text x="470" y="115" class="text-title">⚙️ BACKEND &amp; DATA</text>
+  <rect x="470" y="125" width="85" height="26" class="badge"/>
+  <text x="512" y="142" text-anchor="middle" class="text-pill">Node.js</text>
+  <rect x="565" y="125" width="85" height="26" class="badge"/>
+  <text x="607" y="142" text-anchor="middle" class="text-pill">Python</text>
+  <rect x="660" y="125" width="105" height="26" class="badge"/>
+  <text x="712" y="142" text-anchor="middle" class="text-pill">PostgreSQL</text>
+
+  <text x="470" y="185" class="text-title">🚀 CLOUD &amp; TOOLS</text>
+  <rect x="470" y="195" width="85" height="26" class="badge"/>
+  <text x="512" y="212" text-anchor="middle" class="text-pill">Git / GitHub</text>
+  <rect x="565" y="195" width="85" height="26" class="badge"/>
+  <text x="607" y="212" text-anchor="middle" class="text-pill">Docker</text>
+  <rect x="660" y="195" width="105" height="26" class="badge"/>
+  <text x="712" y="212" text-anchor="middle" class="text-pill">TailwindCSS</text>
+</svg>
