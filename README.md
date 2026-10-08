@@ -31,16 +31,61 @@
 <br/>
 
 ### ✦ Profile at a glance
-<div align="center">
-  <img src="./assets/id-card.svg" width="100%" alt="Developer Badge" />
-</div>
+<table border="0" style="width: 100%; background: #0d1117; border-radius: 16px; border: 1.5px solid #30363d; padding: 18px;">
+  <tr>
+    <!-- Lanyard Developer ID Badge -->
+    <td width="32%" align="center" style="background: #161b22; border-radius: 12px; border: 1.5px dashed #8957e5; padding: 18px;">
+      <img src="https://github.com/Ajeesh-iv.png" width="110" height="110" style="border-radius: 50%; border: 3px solid #58a6ff; box-shadow: 0 0 14px rgba(88, 166, 255, 0.7);" alt="Ajeesh-iv" />
+      <br/>
+      <h3 style="color: #f0f6fc; margin: 12px 0 3px 0; font-size: 18px;">Ajeesh</h3>
+      <code style="color: #7ee787; font-size: 11px;">● AVAILABLE FOR HIRE</code><br/>
+      <span style="color: #8b949e; font-size: 12px; display: inline-block; margin-top: 4px;">Full-Stack &amp; AI Builder</span>
+    </td>
+
+    <!-- Developer Overview Metrics -->
+    <td width="68%" style="padding-left: 24px;">
+      <p style="color: #58a6ff; font-family: monospace; font-size: 13px; margin: 0;">// DEVELOPER OVERVIEW</p>
+      <h2 style="color: #f0f6fc; margin: 4px 0 16px 0; font-size: 22px;">Profile at a glance</h2>
+
+      <table border="0" width="100%">
+        <tr>
+          <td align="center" style="background: #161b22; border-radius: 8px; border: 1px solid #21262d; padding: 10px;">
+            <b style="color: #f0f6fc; font-size: 16px;">@Ajeesh-iv</b><br/>
+            <small style="color: #8b949e;">GitHub Handle</small>
+          </td>
+          <td align="center" style="background: #161b22; border-radius: 8px; border: 1px solid #21262d; padding: 10px;">
+            <b style="color: #7ee787; font-size: 16px;">Active</b><br/>
+            <small style="color: #8b949e;">Status</small>
+          </td>
+          <td align="center" style="background: #161b22; border-radius: 8px; border: 1px solid #21262d; padding: 10px;">
+            <b style="color: #ff79c6; font-size: 16px;">2026</b><br/>
+            <small style="color: #8b949e;">Edition</small>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Animated-style Progress Meters -->
+      <div style="margin-top: 16px;">
+        <span style="color: #c9d1d9; font-family: monospace; font-size: 12px;">Frontend &amp; Responsive UI</span>
+        <div style="width: 100%; background: #21262d; height: 8px; border-radius: 4px; margin-top: 5px;">
+          <div style="width: 90%; background: #a371f7; height: 8px; border-radius: 4px;"></div>
+        </div>
+      </div>
+      <div style="margin-top: 12px;">
+        <span style="color: #c9d1d9; font-family: monospace; font-size: 12px;">Backend, Cloud &amp; Automation</span>
+        <div style="width: 100%; background: #21262d; height: 8px; border-radius: 4px; margin-top: 5px;">
+          <div style="width: 80%; background: #58a6ff; height: 8px; border-radius: 4px;"></div>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
 ### ✦ Contributions & Activity
 <div align="center">
 
-<!-- Live Dynamic GitHub Metrics for Ajeesh-iv -->
 <table border="0">
   <tr>
     <td>
