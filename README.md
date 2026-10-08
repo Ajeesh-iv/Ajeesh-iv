@@ -1,33 +1,3 @@
-# Ajeesh I V
-
-👋 Hi, I'm **Ajeesh I V**, a Software Developer passionate about building robust applications and scalable systems.
-
----
-
-## 🛠️ Tech Stack & Skills
-
-- **Languages:** Python, JavaScript, TypeScript, SQL
-- **Frameworks & Tools:** React, Node.js, Express, Git, Docker, Linux
-- **Cloud & DevOps:** AWS, Google Cloud, CI/CD pipelines
-
----
-
-## 🚀 Key Projects
-
-- **[Project 1 Name](https://github.com/Ajeesh-iv/repo-name)** — Brief 1-line description of what it solves using main tech stack.
-- **[Project 2 Name](https://github.com/Ajeesh-iv/repo-name)** — Brief 1-line description of what it solves using main tech stack.
-
----
-
-## 🌐 Connect with Me
-
-- **LinkedIn:** [[linkedin.com/in/your-profile](https://www.linkedin.com/in/ajeesh-iv?utm_source=share_via&utm_content=profile&utm_medium=member_android)](https://www.linkedin.com/in/ajeesh-iv?utm_source=share_via&utm_content=profile&utm_medium=member_android)
-- **Portfolio:** [your-portfolio-link.com](https://ajeeshiv.vercel.app/)
-- **Email:** i.v.ajeesh2006@gmail.com
-
----
-
-
 <div align="center">
 
 <a href="https://ajeeshiv.vercel.app/">
